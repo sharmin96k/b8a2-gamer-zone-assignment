@@ -137,3 +137,57 @@ ul li a{
 }
 
 /* online games section styles */
+.games-header{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.highlighted-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.games-details{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.games-category{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    width: 18%;
+    margin: 8px;
+}
+
+.card3:hover .overlay{
+   cursor: grab;
+   
+}
+.cards-description{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    margin: 10px 30px;
+}
+
+/* play online games instantly scetion styles */
+.instantly-title{
+    direction: rtl;
+    text-align: start;
+}
+.instantly-details{
+    direction: rtl;
+    text-align: start;
+}
