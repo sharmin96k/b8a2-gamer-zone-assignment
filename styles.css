@@ -12,7 +12,7 @@
     height: 100px;
 }
 .nav-title{
-/* text-align: center; */
+
     color: #0B0223;
     font-size: 45px;
     font-weight: 700;
@@ -251,4 +251,96 @@ ul li a{
 .button>img{
     width: 20%;
     margin-right: 8px;
+}
+/* footer section styles */
+footer{
+    background-color: #0B0223;;
+    height: 550px;
+    margin-top: 100px;
+}
+.footer-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+#footer-logo{
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+#some-letters{
+    color: white;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#services>p{
+    margin-right: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-button{
+    width: 8%;
+    margin: 15px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+}
+.footer-button:hover{
+    border-color: 1px solid #3C354F;
+    background-color: #534C64;
+    cursor: grab;
+}
+.footer-button>img{
+    border-radius: 30px;
+}
+#twitter{
+    width: 50%;
+}
+#facebook{
+    width: 50%;
+}
+#youtube{
+    width: 50%;
+}
+#instagram{
+    width: 70%;
+}
+#footer-bottom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 35px;
+    margin-bottom: 40px;
+}
+small{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 550px;
 }
